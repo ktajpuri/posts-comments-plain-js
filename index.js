@@ -84,6 +84,7 @@ function renderComments(parentId) {
             <div class="actions">
                 <a href="#" onclick="reply('c${item.id}')">Reply</a>
             </div>
+            ${renderComments('c'+ item.id)}
         </div>
    </div>`;
     });
