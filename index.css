@@ -1,0 +1,51 @@
+#container {
+    width: 500px;
+    min-height: 500px;
+    background-color: #cccccc;
+    padding: 20px;
+}
+
+#postTextArea, #posterUsername, #submitPost {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.userImage img {
+    width: 60px;
+    height: 60px;
+}
+
+.post {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: relative;
+    background-color: #dddddd;
+}
+
+.post.comment {
+    margin-top: 10px;
+    background-color: #eeeeee;
+}
+.userImage {
+    flex: 1;
+}
+.username {
+    color: blue;
+}
+.actions a {
+    color: gray;
+    text-decoration: none;
+}
+.postBody {
+    flex: 5;
+}
+
+.commentsForm {
+    position: absolute;
+    top: 65px;
+    left: 82px;
+    background-color: #ffffff;
+    z-index: 1;
+    padding: 20px;
+}
